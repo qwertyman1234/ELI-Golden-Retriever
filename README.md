@@ -1,8 +1,8 @@
 # ELI Golden Retriever
 
-[![Stars](https://img.shields.io/github/stars/ELI-Golden-Retriever/ELI-Golden-Retriever?style=flat)](https://github.com/ELI-Golden-Retriever/ELI-Golden-Retriever/stargazers)
-[![Forks](https://img.shields.io/github/forks/ELI-Golden-Retriever/ELI-Golden-Retriever?style=flat)](https://github.com/ELI-Golden-Retriever/ELI-Golden-Retriever/network/members)
-[![Contributors](https://img.shields.io/github/contributors/ELI-Golden-Retriever/ELI-Golden-Retriever?style=flat)](https://github.com/ELI-Golden-Retriever/ELI-Golden-Retriever/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/qwertyman1234/ELI-Golden-Retriever?style=flat)](https://github.com/qwertyman1234/ELI-Golden-Retriever/stargazers)
+[![Forks](https://img.shields.io/github/forks/qwertyman1234/ELI-Golden-Retriever?style=flat)](https://github.com/qwertyman1234/ELI-Golden-Retriever/network/members)
+[![Contributors](https://img.shields.io/github/contributors/qwertyman1234/ELI-Golden-Retriever?style=flat)](https://github.com/qwertyman1234/ELI-Golden-Retriever/graphs/contributors)
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-Welcome!-orange?style=flat)](https://hacktoberfest.com/)
 
 Welcome, fren!! This is a crowdsourced encyclopedia where every concept on earth is explained by an enthusiastic, slightly confused golden retriever. Expect big feelings, waggy logic, and surprisingly accurate info hidden under a pile of tennis balls. If you love learning and yelling "OH WOW" at new ideas, you are already part of the pack!!
