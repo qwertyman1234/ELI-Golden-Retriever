@@ -10,7 +10,7 @@ Because the internet has enough dry explanations. It needs more zoomies.
 
 ![Preview](assets/preview.png)
 
-## Example Entry Preview
+## Entry Preview
 
 **What is Git?**
 
