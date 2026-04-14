@@ -1,0 +1,42 @@
+name: Validate Topic Template
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate new topic files
+        shell: bash
+        run: |
+          set -euo pipefail
+          base_ref="${{ github.base_ref }}"
+          git fetch origin "$base_ref"
+
+          changed_files=$(git diff --name-only "origin/$base_ref"... | tr -d '\r')
+          required_headers=(
+            "## The Explanation"
+            "## Key Terms"
+            "## Why This Is Actually A Big Deal"
+            "## Author"
+          )
+
+          for file in $changed_files; do
+            if [[ $file =~ ^(science|tech|finance|philosophy|history)/.+\.md$ ]]; then
+              for header in "${required_headers[@]}"; do
+                if ! grep -q "$header" "$file"; then
+                  echo "Missing '$header' in $file"
+                  exit 1
+                fi
+              done
+            fi
+          done
+
+          echo "All new topic files include required sections."
