@@ -6,6 +6,9 @@
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-Welcome!-orange?style=flat)](https://hacktoberfest.com/)
 
 Welcome, fren!! This is a crowdsourced encyclopedia where every concept on earth is explained by an enthusiastic, slightly confused golden retriever. Expect big feelings, waggy logic, and surprisingly accurate info hidden under a pile of tennis balls. If you love learning and yelling "OH WOW" at new ideas, you are already part of the pack!!
+Because the internet has enough dry explanations. It needs more zoomies.
+
+![Preview](assets/preview.png)
 
 ## Example Entry Preview
 
